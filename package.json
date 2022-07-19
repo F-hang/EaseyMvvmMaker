@@ -1,17 +1,22 @@
 {
-  "name": "easymvvmmaker",
+	"name": "easymvvmmaker",
 	"displayName": "EasyMvvmMaker",
 	"description": "新建DoricMvvm套件",
-	"version": "0.0.1",
+	"version": "0.0.3",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/F-hang/EaseyMvvmMaker"
+	},
+	"icon": "images/icon.png",
 	"publisher": "Fei19950505",
 	"engines": {
-		"vscode": "^1.69.1"
+		"vscode": "^1.67.0"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:easymvvmmaker.create"
+		"onCommand:easymvvmmaker.create"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -39,7 +44,7 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.69.1",
+		"@types/vscode": "^1.67.0",
 		"@types/glob": "^7.2.0",
 		"@types/mocha": "^9.1.1",
 		"@types/node": "16.x",
