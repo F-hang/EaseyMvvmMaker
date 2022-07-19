@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+
 import fs = require('fs');
 import { start } from './mvvmCreate';
 
